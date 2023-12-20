@@ -1,0 +1,625 @@
+/* Main Style Sheet */
+/* common styles - start */
+* {
+    font-family: 'Poppins';
+    font-style: normal;
+    --primaryColor: #2356F6 !important;
+    --secondaryColor: #C7CE30 !important;
+    --color-110E19: #110E19 !important;
+    --light-gray: rgba(250, 250, 251, 0.5) !important;
+    --color-FFFFFF: #ffffff !important;
+}
+
+/* color - start */
+.primaryColor {
+    color: var(--primaryColor) !important;
+}
+
+.bgPrimaryColor {
+    background: var(--primaryColor) !important;
+}
+
+.secondaryColor {
+    color: var(--secondaryColor) !important;
+}
+
+.bgSecondaryColor {
+    background: var(--secondaryColor) !important;
+}
+
+.color-110E19 {
+    color: var(--color-110E19) !important;
+}
+
+.bgColor-110E19 {
+    background: var(--color-110E19) !important;
+}
+
+.light-gray {
+    color: var(--light-gray) !important;
+}
+
+.bgLight-gray {
+    background: var(--light-gray) !important;
+}
+.color-FFFFFF {
+    color: var(--color-FFFFFF) !important;
+}
+
+.bgColor-FFFFFF {
+    background: var(--color-FFFFFF) !important;
+}
+
+/* colors - end */
+/* a tag - start */
+a {
+    text-decoration: none !important;
+}
+
+/* a tag - end */
+/* forms - style start */
+/* .form-control:focus {
+    border: var(--primaryColor) !important;
+    box-shadow: 0 0 0 0.20rem var(--primaryColor) !important;
+} */
+/* forms - styles end */
+.width-fit-content {
+    width: fit-content !important;
+}
+
+.dropShadow {
+    box-shadow: 0px 0px 10px 2px rgba(90, 116, 148, 0.3) !;
+}
+
+/* font weight - start */
+.fw-100 {
+    font-weight: 100 !important;
+}
+
+.fw-200 {
+    font-weight: 200 !important;
+}
+
+.fw-300 {
+    font-weight: 300 !important;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fw-800 {
+    font-weight: 800 !important;
+}
+
+/* font weight - end */
+/* margin - start */
+.m-auto {
+    margin: auto !important;
+}
+
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mx-12 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.mx-14 {
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.mx-16 {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.mx-18 {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.mx-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* margin-x axis - end */
+/* margin-y axis - start */
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-12 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.my-14 {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.my-16 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.my-18 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* margin-y axis - end */
+/* margin - left - start */
+.ml-auto {
+    margin-left: auto;
+}
+
+.ml-0 {
+    margin-left: 0 !important;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-35 {
+    margin-left: 35px;
+}
+
+.ml-40 {
+    margin-left: 40px;
+}
+
+.ml-45 {
+    margin-left: 45px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+/* margin - left - end */
+/* margin - right - start */
+.mr-auto {
+    margin-right: auto;
+}
+
+.mr-0 {
+    margin-right: 0px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-25 {
+    margin-right: 25px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mr-35 {
+    margin-right: 35px;
+}
+
+.mr-40 {
+    margin-right: 40px;
+}
+
+.mr-45 {
+    margin-right: 45px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+/* margin -right - end */
+/* margin - top - start */
+.mt-auto {
+    margin-top: auto;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mt-14 {
+    margin-top: 14px !important;
+}
+
+.mt-15 {
+    margin-top: 15px !important;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mt-40 {
+    margin-top: 40px !important;
+}
+
+.mt-45 {
+    margin-top: 45px;
+}
+
+.mt-50 {
+    margin-top: 50px !important;
+}
+
+/* margin - top - end */
+/* margi- bottom - start */
+.mb-auto {
+    margin-bottom: auto;
+}
+
+.mb-8 {
+    margin-bottom: 8px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+/* margi- bottom - start */
+/* margin - end */
+/* padding- start */
+.px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.px-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.px-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.px-25 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.px-40 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.py-10 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.py-12 {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+.py-14 {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.py-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.p-40 {
+    padding: 40px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+/* padding - end */
+/* borders - start */
+.b-none {
+    border: none !important;
+}
+
+.br-2 {
+    border-radius: 2px !important;
+}
+
+.br-4 {
+    border-radius: 4px !important;
+}
+
+.br-6 {
+    border-radius: 6px !important;
+}
+
+.br-10 {
+    border-radius: 10px !important;
+}
+
+.br-15 {
+    border-radius: 15px !important;
+}
+
+.br-20 {
+    border-radius: 20px !important;
+}
+.br-25 {
+    border-radius: 25px !important;
+}
+.br-40 {
+    border-radius: 40px !important;
+}
+
+.br-46 {
+    border-radius: 46px !important;
+}
+
+/* borders - end */
+.text-center {
+    text-align: center !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.row-gap {
+    row-gap: 25px;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.position-absolute {
+    position: absolute !important;
+}
+/* btn style - start */
+.btn{
+    padding: 8px 32px !important;
+    font-size: 18px;
+}
+/* btn style - end */
+/* font-size - start */
+.titleOne{
+    font-size: 35px;
+}
+@media (min-width:576px) {
+    .titleOne{
+        font-size: 58px;
+    }   
+}
+@media (min-width:768px) {
+    .titleOne{
+        font-size: 40px;
+    }   
+}
+@media (min-width:992px) {
+    .titleOne{
+        font-size: 45px;
+    }   
+}
+@media (min-width:1200px) {
+    .titleOne{
+        font-size: 50px;
+    }   
+}
+@media (min-width:1400px) {
+    .titleOne{
+        font-size: 55px;
+    }   
+}
+.titleTwo{
+    font-size: 24px;
+}
+@media (min-width:768px) {
+    .titleTwo{
+        font-size: 28px;
+    }   
+}
+@media (min-width:992px) {
+    .titleTwo{
+        font-size: 32px;
+    }   
+}
+@media (min-width:1200px) {
+    .titleTwo{
+        font-size: 36px;
+    }   
+}
+@media (min-width:1400px) {
+    .titleTwo{
+        font-size: 40px;
+    }   
+}
+.titleThree{
+    font-size: 34px;
+}
+.titleFour{
+    font-size: 24px;
+}
+/* font-size - end */
