@@ -72,41 +72,51 @@
     <div id="course" class="container-fluid homeSecOne">
         <div class="container">
             <div class="card bgColor-FFFFFF b-none">
-                <div class="wrapper d-flex justify-content-around">
-                    <div class="cntBox one d-flex flex-column align-items-center">
-                        <div class="clrBox bgColor-F3EEFF br-4 d-flex justify-content-center align-items-center">
-                            <img src="assets/img/homeSecOneImgOne.svg" alt="coursenexgen" />
+                <div class="owl-carousel owl-theme owl-carousel-homeSecOne">
+                    <div class="item">
+                        <div class="cntBox one d-flex flex-column align-items-center">
+                            <div class="clrBox bgColor-F3EEFF br-4 d-flex justify-content-center align-items-center">
+                                <img src="assets/img/homeSecOneImgOne.svg" alt="coursenexgen" />
+                            </div>
+                            <h2 class="titleSix text-center mt-3 mb-0">Post-Course Support</h2>
                         </div>
-                        <h2 class="descriptionOne text-center mt-3 mb-0">Post-Course Support</h2>
                     </div>
-                    <div class="cntBox two d-flex flex-column align-items-center">
-                        <div class="clrBox bgColor-FEF4E8 br-4 d-flex justify-content-center align-items-center">
-                            <img src="assets/img/homeSecOneImgTwo.svg" alt="coursenexgen" />
+                    <div class="item">
+                        <div class="cntBox two d-flex flex-column align-items-center">
+                            <div class="clrBox bgColor-FEF4E8 br-4 d-flex justify-content-center align-items-center">
+                                <img src="assets/img/homeSecOneImgTwo.svg" alt="coursenexgen" />
+                            </div>
+                            <h2 class="titleSix text-center mt-3 mb-0">Accredited Courses</h2>
                         </div>
-                        <h2 class="descriptionOne text-center mt-3 mb-0">Accredited Courses</h2>
                     </div>
-                    <div class="cntBox three d-flex flex-column align-items-center">
-                        <div class="clrBox bgColor-FDEDEF br-4 d-flex justify-content-center align-items-center">
-                            <img src="assets/img/homeSecOneImgThree.svg" alt="coursenexgen" />
+                    <div class="item">
+                        <div class="cntBox three d-flex flex-column align-items-center">
+                            <div class="clrBox bgColor-FDEDEF br-4 d-flex justify-content-center align-items-center">
+                                <img src="assets/img/homeSecOneImgThree.svg" alt="coursenexgen" />
+                            </div>
+                            <h2 class="titleSix text-center mt-3 mb-0">Dedicated Learning Partner</h2>
                         </div>
-                        <h2 class="descriptionOne text-center mt-3 mb-0">Dedicated Learning Partner</h2>
                     </div>
-                    <div class="cntBox four d-flex flex-column align-items-center">
-                        <div class="clrBox bgColor-E8F8F5 br-4 d-flex justify-content-center align-items-center">
-                            <img src="assets/img/homeSecOneImgFour.svg" alt="coursenexgen" />
+                    <div class="item">
+                        <div class="cntBox four d-flex flex-column align-items-center">
+                            <div class="clrBox bgColor-E8F8F5 br-4 d-flex justify-content-center align-items-center">
+                                <img src="assets/img/homeSecOneImgFour.svg" alt="coursenexgen" />
+                            </div>
+                            <h2 class="titleSix text-center mt-3 mb-0">Course Materials</h2>
                         </div>
-                        <h2 class="descriptionOne text-center mt-3 mb-0">Course Materials</h2>
                     </div>
-                    <div class="cntBox five d-flex flex-column align-items-center">
-                        <div class="clrBox bgColor-E3F0F4 br-4 d-flex justify-content-center align-items-center">
-                            <img src="assets/img/homeSecOneImgFive.svg" alt="coursenexgen" />
+                    <div class="item">
+                        <div class="cntBox five d-flex flex-column align-items-center">
+                            <div class="clrBox bgColor-E3F0F4 br-4 d-flex justify-content-center align-items-center">
+                                <img src="assets/img/homeSecOneImgFive.svg" alt="coursenexgen" />
+                            </div>
+                            <h2 class="titleSix text-center mt-3 mb-0">Qualified Instructors</h2>
                         </div>
-                        <h2 class="descriptionOne text-center mt-3 mb-0">Qualified Instructors</h2>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
     <!-- homesecOne - end -->
     <!-- homesecTwo - start -->
     <div class="container-fluid homeSecTwo py-40">
@@ -427,6 +437,28 @@
             autoplayHoverPause: true,
             animateOut: 'slideOutUp',
             animateIn: 'slideInUp'
+        });
+        $('.owl-carousel-homeSecOne').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: false,
+            dots: false,
+            autoplay: 5,
+            lazyLoad: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                576: {
+                    items: 3
+                },
+                992: {
+                    items: 4
+                },
+                1200: {
+                    items: 5
+                }
+            }
         })       
     </script>
 </body>

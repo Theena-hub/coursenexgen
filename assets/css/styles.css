@@ -907,6 +907,19 @@ a {
         font-size: 18px;
     }
 }
+.titleSix{
+    font-size: 12px;
+}
+@media (min-width:768px) {
+    .titleSix{
+        font-size: 14px;
+    }   
+}
+@media (min-width:1200px) {
+    .titleSix{
+        font-size: 16px;
+    }   
+}
 
 .description {
     font-size: 16px;
@@ -1055,7 +1068,26 @@ a {
         height: 100vh;
     }
 }
-
+@media (min-width:992px) {
+    .homeHeroSec {
+        height: 70vh;
+    }
+}
+@media (min-width:1200px) {
+    .homeHeroSec {
+        height: 85vh;
+    }
+}
+@media (min-width:1400px) {
+    .homeHeroSec {
+        height: 80vh;
+    }
+}
+@media (min-width:1600px) {
+    .homeHeroSec {
+        height: 70vh;
+    }
+}
 .homeHeroSec .centerImg {
     position: absolute;
     left: 50%;
@@ -1168,60 +1200,73 @@ a {
 /* homeHeroSec - End */
 /* homeSecOne - start */
 .homeSecOne {
-    position: absolute;
-    bottom: 0;
-    transform: translateY(25%);
-    display: none;
+    position: relative;
 }
 
 @media (min-width:576px) {
     .homeSecOne {
-        display: block;
-        transform: translateY(70%);
+    
     }
 }
 
 @media (min-width:768px) {
     .homeSecOne {
-        transform: translateY(70%);
+    
     }
 }
 
 @media (min-width:992px) {
     .homeSecOne {
-        transform: translateY(70%);
+    
     }
 }
 
 @media (min-width:1200px) {
     .homeSecOne {
-        transform: translateY(70%);
+    
     }
 }
 
 @media (min-width:1400px) {
     .homeSecOne {
-        transform: translateY(65%);
+    
     }
 }
 
 .homeSecOne .card {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,75%);
     filter: drop-shadow(-1px 9px 21px rgba(0, 0, 0, 0.19));
-    padding: 30px 10px;    
+    padding: 20px 10px;    
+    width: 80%;
 }
 
 @media (min-width:576px) {
     .homeSecOne .card {
         padding: 20px 10px;
+        width: 90%;
+        transform: translate(-50%,70%);
     }
 }
-
+@media (min-width:768px) {
+    .homeSecOne .card {
+        width: 88%;
+    }
+}
 @media (min-width:992px) {
     .homeSecOne .card {
-        padding: 30px 10px;
+        padding: 25px 10px;
+        width: 90%;
     }
 }
-
+@media (min-width:1200px) {
+    .homeSecOne .card {
+        padding: 30px 10px;
+        width: 85%;
+    }
+}
 .homeSecOne .card .wrapper {
     flex-direction: column;    
 }
@@ -1233,8 +1278,7 @@ a {
 }
 
 .homeSecOne .card .cntBox {
-    width: fit-content;
-    width: 20%;
+    width: fit-content;    
 }
 
 .homeSecOne .card .clrBox {
@@ -1276,15 +1320,34 @@ a {
         height: 88px;
     }
 }
-
+.homeSecOne .card .clrBox img{
+    width: 35px;
+    height: 35px;
+    object-fit: none;
+}
+.homeSecOne .owl-carousel .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* homeSecOne - end */
 /* homeSecTwo - Start */
 .homeSecTwo{
-    
+    margin-top: 120px;
 }
 @media (min-width:576px) {
     .homeSecTwo{
-        margin-top: 170px;
+        margin-top: 120px;
+    }
+}
+@media (min-width:992px) {
+    .homeSecTwo{
+        margin-top: 140px;
+    }
+}
+@media (min-width:1200px) {
+    .homeSecTwo{
+        margin-top: 160px;
     }
 }
 .homeSecTwo .card {
@@ -1366,30 +1429,6 @@ a {
 
 /* homeSecTwo - end */
 /* homeSecThree - start */
-/* .homeSecThree h1 {
-    position: relative;
-}
-
-@media (min-width:768px) {
-    .homeSecThree h1::before {
-        position: absolute;
-        content: url(../img/leftMark.svg);
-        left: 0;
-        bottom: 0;
-        transform: translate(-100%, 25%);
-        width: 100%;
-        height: auto;
-    }
-
-}
-@media (min-width:768px) {
-    .homeSecThree h1::after {
-        position: absolute;
-        content: url(../img/rightMark.svg);
-        width: 100%;
-        height: auto;
-    }
-} */
 .homeSecThree .wrapper img {
     width: 64px;
     height: auto;
