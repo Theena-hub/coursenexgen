@@ -7,36 +7,7 @@
 
 <body>
     <!-- navbar - start -->
-    <div class="container-fluid">
-        <div class="d-flex justify-content-between flex-column br-10"
-            style="width: fit-content; height: 250px;position: fixed;left: 0px;top: 50%;transform: translateY(-50%);border-left: 5px solid #fff;z-index: 5;">
-            <div class="ml-5">
-                <a href="#">
-                    <img src="assets/img/homeIcon.svg" alt="cousenexgen" />
-                    <h1 class="titleFive width-fit-content color-FFFFFF fw-500">Home</h1>
-                </a>
-            </div>
-            <div class="ml-5">
-                <a href="index.php#course">
-                    <img src="assets/img/courseIcon.svg" alt="cousenexgen" />
-                    <h1 class="titleFive width-fit-content color-FFFFFF fw-500">Course</h1>
-                </a>
-            </div>
-            <div class="ml-5">
-                <a href="">
-                    <img src="assets/img/aboutIcon.svg" alt="cousenexgen" />
-                    <h1 class="titleFive width-fit-content color-FFFFFF fw-500">About</h1>
-                </a>
-            </div>
-            <div class="ml-5">
-                <a href="">
-                    <img src="assets/img/contactIcon.svg" alt="cousenexgen" />
-                    <h1 class="titleFive width-fit-content color-FFFFFF fw-500">Contact</h1>
-                </a>
-            </div>
-
-        </div>
-    </div>
+    <?php include("nav.php") ?>
     <!-- navbar - end -->
     <!-- home hero section - start -->
     <div class="container-fluid homeHeroSec d-flex justify-content-center align-items-center">
@@ -69,7 +40,7 @@
     </div>
     <!-- home hero section - end -->
     <!-- homesecOne - start -->
-    <div id="course" class="container-fluid homeSecOne">
+    <div class="container-fluid homeSecOne">
         <div class="container">
             <div class="card bgColor-FFFFFF b-none">
                 <div class="owl-carousel owl-theme owl-carousel-homeSecOne">
@@ -119,7 +90,7 @@
     </div>    
     <!-- homesecOne - end -->
     <!-- homesecTwo - start -->
-    <div class="container-fluid homeSecTwo py-40">
+    <div id="course" class="container-fluid homeSecTwo py-40">
         <div class="container">
             <h1 class="titleTwo fw-500 color-000000">Pick a <span class="secondaryColor">Course</span> to Get Started
             </h1>
