@@ -2693,3 +2693,11 @@ a {
 
 /* contactus page section two - end */
 /* contactus page - end */
+/* paymenet page - start */
+.paymentHeroSec{
+    height: 50vh;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;   
+}
+/* paymenet page - end */
