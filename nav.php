@@ -2,7 +2,7 @@
 <div class="container-fluid" style="box-shadow: 0 4px 2px -2px rgba(0,0,0,.2)">
     <div class="container">
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.php"><img src="assets/img/logo.svg" alt="coursenexgen" /></a>
+            <a class="navbar-brand" href="index.php"><img src="assets/img/logo.png" class="" style="width: 150px;" alt="coursenexgen" /></a>
             <button id="tog-btn" class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation" onclick="togShow()">
@@ -21,10 +21,10 @@
                         <a class="nav-link fw-600" href="paymentdetails.php">Payments</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-600" href="about.php">About Us</a>
+                        <a class="nav-link fw-600" href="aboutus.php">About Us</a>
                     </li>                   
                     <li class="nav-item">
-                        <a class="nav-link fw-600" href="contact.php">Contact Us</a>
+                        <a class="nav-link fw-600" href="contactus.php">Contact Us</a>
                     </li>
                 </ul>                
             </div>

@@ -3,8 +3,8 @@
         <div class="row row-gap">
             <div class="col-xl-6 col-lg-4 col-sm-5">
                 <div class="left">
-                    <h1 class="text-uppercase color-FFFFFF">logo</h1>
-                    <p class="description fw-400 light-gray">Upskill your career growth</p>
+                    <img src="assets/img/logo.png" alt="coursenexgen" style="width: 200px;">
+                    <p class="description fw-400 light-gray mt-20">Upskill your career growth</p>
                     <div class="socialmedia d-flex justify-content-between align-items-center mt-25">
                         <a href="https://www.facebook.com/profile.php?id=61555213080580" target="_blank"><img
                                 src="./assets/img/fb-icon-white.svg" alt="Coursenexgen" /></a>
