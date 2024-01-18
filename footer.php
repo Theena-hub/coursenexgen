@@ -6,9 +6,12 @@
                     <h1 class="text-uppercase color-FFFFFF">logo</h1>
                     <p class="description fw-400 light-gray">Upskill your career growth</p>
                     <div class="socialmedia d-flex justify-content-between align-items-center mt-25">
-                        <img src="./assets/img/fb-icon-white.svg" alt="Coursenexgen" />
-                        <img src="./assets/img/instagram-icon-white.svg" alt="Coursenexgen" />
-                        <img src="./assets/img/linkedin-icon-white.svg" alt="Coursenexgen" />
+                        <a href="https://www.facebook.com/profile.php?id=61555213080580" target="_blank"><img
+                                src="./assets/img/fb-icon-white.svg" alt="Coursenexgen" /></a>
+                        <a href="https://www.instagram.com/coursenexgen/" target="_blank"><img
+                                src="./assets/img/instagram-icon-white.svg" alt="Coursenexgen" /></a>
+                        <a href="https://www.linkedin.com/company/coursenexgen/" target="_blank"><img
+                                src="./assets/img/linkedin-icon-white.svg" alt="Coursenexgen" /></a>
                     </div>
                 </div>
             </div>

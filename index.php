@@ -87,7 +87,7 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
     <!-- homesecOne - end -->
     <!-- homesecTwo - start -->
     <div id="course" class="container-fluid homeSecTwo py-40">
@@ -101,8 +101,9 @@
                         <div class="card-body bgColor-FFFFFF br-15">
                             <h1 class="titleFive fw-500 color-252424 mb-0">Advanced Certification Program in Data
                                 Science (with Generative AI)</h1>
-                            <input type="button" class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
-                                value="Explore Course">
+                            <a href="course.php"><input type="button"
+                                    class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
+                                    value="Explore Course"></a>
                         </div>
                     </div>
                 </div>
@@ -111,8 +112,9 @@
                         <img src="assets/img/courseTwoImage.png" alt="coursenexgen" />
                         <div class="card-body bgColor-FFFFFF br-15">
                             <h1 class="titleFive fw-500 color-252424 mb-0">Full Stack Developer Course</h1>
-                            <input type="button" class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
-                                value="Explore Course">
+                            <a href="course.php"><input type="button"
+                                    class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
+                                    value="Explore Course"></a>
                         </div>
                     </div>
                 </div>
@@ -122,8 +124,9 @@
                         <div class="card-body bgColor-FFFFFF br-15">
                             <h1 class="titleFive fw-500 color-252424 mb-0">Global Diploma Program in Data Science from
                                 State University of New York</h1>
-                            <input type="button" class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
-                                value="Explore Course">
+                            <a href="course.php"><input type="button"
+                                    class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
+                                    value="Explore Course"></a>
                         </div>
                     </div>
                 </div>
@@ -133,8 +136,9 @@
                         <div class="card-body bgColor-FFFFFF br-15">
                             <h1 class="titleFive fw-500 color-252424 mb-0">Advanced Certification Program in Data
                                 Science (with Generative AI)</h1>
-                            <input type="button" class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
-                                value="Explore Course">
+                            <a href="course.php"><input type="button"
+                                    class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
+                                    value="Explore Course"></a>
                         </div>
                     </div>
                 </div>
@@ -143,8 +147,9 @@
                         <img src="assets/img/courseTwoImage.png" alt="coursenexgen" />
                         <div class="card-body bgColor-FFFFFF br-15">
                             <h1 class="titleFive fw-500 color-252424 mb-0">Full Stack Developer Course</h1>
-                            <input type="button" class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
-                                value="Explore Course">
+                            <a href="course.php"><input type="button"
+                                    class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
+                                    value="Explore Course"></a>
                         </div>
                     </div>
                 </div>
@@ -154,8 +159,9 @@
                         <div class="card-body bgColor-FFFFFF br-15">
                             <h1 class="titleFive fw-500 color-252424 mb-0">Global Diploma Program in Data Science from
                                 State University of New York</h1>
-                            <input type="button" class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
-                                value="Explore Course">
+                            <a href="course.php"><input type="button"
+                                    class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
+                                    value="Explore Course"></a>
                         </div>
                     </div>
                 </div>
@@ -165,8 +171,9 @@
                         <div class="card-body bgColor-FFFFFF br-15">
                             <h1 class="titleFive fw-500 color-252424 mb-0">Advanced Certification Program in Data
                                 Science (with Generative AI)</h1>
-                            <input type="button" class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
-                                value="Explore Course">
+                            <a href="course.php"><input type="button"
+                                    class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
+                                    value="Explore Course"></a>
                         </div>
                     </div>
                 </div>
@@ -175,8 +182,9 @@
                         <img src="assets/img/courseTwoImage.png" alt="coursenexgen" />
                         <div class="card-body bgColor-FFFFFF br-15">
                             <h1 class="titleFive fw-500 color-252424 mb-0">Full Stack Developer Course</h1>
-                            <input type="button" class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
-                                value="Explore Course">
+                            <a href="course.php"><input type="button"
+                                    class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
+                                    value="Explore Course"></a>
                         </div>
                     </div>
                 </div>
@@ -186,8 +194,9 @@
                         <div class="card-body bgColor-FFFFFF br-15">
                             <h1 class="titleFive fw-500 color-252424 mb-0">Global Diploma Program in Data Science from
                                 State University of New York</h1>
-                            <input type="button" class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
-                                value="Explore Course">
+                            <a href="course.php"><input type="button"
+                                    class="btn bgPrimaryColor color-FFFFFF fw-500 br-25 mt-4"
+                                    value="Explore Course"></a>
                         </div>
                     </div>
                 </div>

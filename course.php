@@ -553,7 +553,7 @@
     <!-- courseSecNine - end -->
     <!-- footer - start -->
     <?php include('footer.php') ?>
-    <!-- footer - end -->
+    <!-- footer - end -->    
     <!-- script - start -->
     <?php include('script.php') ?>
     <!-- script - end -->
