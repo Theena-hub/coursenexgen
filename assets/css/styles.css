@@ -526,9 +526,11 @@ a {
 }
 
 .mb-10 {
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
 }
-
+.mb-12 {
+    margin-bottom: 12px !important;
+}
 .mb-15 {
     margin-bottom: 15px !important;
 }
@@ -2699,5 +2701,8 @@ a {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;   
+}
+.paymentSecOne .card{
+    border: 5px solid var(--secondaryColor);
 }
 /* paymenet page - end */

@@ -29,33 +29,34 @@
             <div class="row row-gap">
                 <div class="col-lg-6 col-md-5 m-auto">
                     <div>
-                        <form>
+                        <form class='enquiryForm'>
                             <div class="form-group d-flex flex-column my-2">
                                 <label class="descriptionOne fw-400 color-505050" for="name">Full Name <span
                                         class="color-E04048">*</span></label>
-                                <input class="form-control color-505050 bg-transparent py-10" type="text" name=""
-                                    id="name" required>
+                                <input class="form-control color-505050 bg-transparent py-10" type="text"
+                                    name="enq_name" id="name" required>
                             </div>
                             <div class="form-group d-flex flex-column my-2">
                                 <label class="descriptionOne fw-400 color-505050" for="contact">Contact Number <span
                                         class="color-E04048">*</span></label>
-                                <input class="form-control color-505050 bg-transparent py-10" type="text" name=""
-                                    id="contact" required>
+                                <input class="form-control color-505050 bg-transparent py-10" type="text"
+                                    name="enq_mobile" id="contact" required>
                             </div>
                             <div class="form-group d-flex flex-column my-2">
                                 <label class="descriptionOne fw-400 color-505050" for="email">Email <span
                                         class="color-E04048">*</span></label>
-                                <input class="form-control color-505050 bg-transparent py-10" type="email" name=""
-                                    id="email" required>
+                                <input class="form-control color-505050 bg-transparent py-10" type="email"
+                                    name="enq_mail" id="email" required>
                             </div>
                             <div class="form-group d-flex flex-column my-2">
                                 <label class="descriptionOne fw-400 color-505050" for="message">Message <span
                                         class="color-E04048">*</span></label>
-                                <textarea name="" id="message" class="form-control color-505050 bg-transparent"
+                                <textarea name="enq_msg" id="message" class="form-control color-505050 bg-transparent"
                                     cols="10" rows="2" required></textarea>
                             </div>
-                            <input type="button" class="btn bgSecondaryColor w-100 color-180101 br-4 mt-2 fw-500"
+                            <input type="submit" class="btn bgSecondaryColor w-100 color-180101 br-4 mt-2 fw-500"
                                 value="Send" />
+                            <input type="hidden" name="req_type" id="req_type" value="add">                            
                         </form>
                     </div>
                 </div>
@@ -78,7 +79,8 @@
                 <div class="col-lg-4 col-md-5 rightBorder m-auto">
                     <div>
                         <h1 class="titleThree fw-500 color-180101">Address</h1>
-                        <p class="descriptionOne fw-400 color-180101">Plot 12C 1, South Phase, Guindy Industrial Estate, SIDCO Industrial Estate, Guindy, Chennai</p>
+                        <p class="descriptionOne fw-400 color-180101">Plot 12C 1, South Phase, Guindy Industrial Estate,
+                            SIDCO Industrial Estate, Guindy, Chennai</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 rightBorder d-flex">
@@ -88,11 +90,11 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-3 m-auto">
-                <div class="width-fit-content m-auto">
+                    <div class="width-fit-content m-auto">
                         <h1 class="titleThree fw-500 color-180101">Email</h1>
                         <p class="descriptionOne fw-400 color-180101">principal@spcet.ac.in</p>
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
     </div>
